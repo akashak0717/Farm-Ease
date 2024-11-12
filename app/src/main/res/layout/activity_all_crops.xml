@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.AllCropsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:background="@color/green">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:layout_gravity="center"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All crops"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/crop_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:spinnerMode="dropdown"
+                tools:listitem="@layout/crop_list_item"/>
+
+            <EditText
+                android:id="@+id/soil_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soil Type"
+                android:textSize="18sp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/watre_irrigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Water irrigation"
+                android:textSize="18sp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/farm_mechanization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Farm mechanization"
+                android:textSize="18sp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/crop_protection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Crop protection"
+                android:textSize="18sp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/deficiency_symptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Deficiency symptoms"
+                android:textSize="18sp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/harvest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Harvest"
+                android:textSize="18sp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/cost_of_cultivation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cost of Cultivation"
+                android:textSize="18sp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"/>
+
+            <Button
+                android:id="@+id/submit_crop"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="end"
+                android:layout_marginEnd="25dp"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
