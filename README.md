@@ -1,5 +1,5 @@
 Farm Ease - Crop Information and Disease Solution for Farmers 🌾
-  Farm Ease is a mobile application developed to support farmers by providing critical crop information, disease management tools, and agricultural resources. This Android app empowers farmers with tools to increase crop productivity and enhance farming practices.
+Farm Ease is a mobile application developed to support farmers by providing critical crop information, disease management tools, and agricultural resources. This Android app empowers farmers with tools to increase crop productivity and enhance farming practices.
 
 Table of Contents:
 
