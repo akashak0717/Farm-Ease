@@ -35,7 +35,7 @@ IV. Installation:
 To run this project locally, follow these steps:
 
 1.Clone the Repository
-  ->> git clone https://github.com/YourUsername/Farm-Ease.git
+  ->> git clone https://github.com/akashak0717/Farm-Ease.git
 
 2.Open in Android Studio: Open Android Studio, navigate to File -> Open, and select the project folder.
 
